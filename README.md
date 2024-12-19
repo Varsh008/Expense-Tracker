@@ -9,11 +9,4 @@ View transaction history with category breakdowns.
 Real-time calculation of total income, expenses, and remaining balance.
 Responsive design for seamless use on desktop and mobile devices.
 
-Folder Structure
-Expense-Tracker/
-├── public/
-│   ├── index.html
-├── src/
-│   ├── App.js
-│   ├── index.js
-├── package.json
+
