@@ -1,9 +1,15 @@
 {
+  "homepage": "http://Varsh008.github.io/Expense-tracker",
   "name": "expense-tracker",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -11,5 +17,8 @@
   "description": "",
   "devDependencies": {
     "gh-pages": "^6.2.0"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
